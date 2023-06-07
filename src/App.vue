@@ -20,151 +20,76 @@
         <hr style="background-color:var(--ion-color-primary); margin: 10px;">
 
         <ion-row>
-          <ion-col>
-            <ion-card button="true">
-              <img alt="Chrono Trigger" src="https://s2.glbimg.com/AngmlHc6lDIKw0Pqsxh0Q-ghssg=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2021/F/o/6uYQ8ASBmnIQkxYBe5JA/2016-03-16-chrono-trigge-wallpaper.jpg" />
-              <ion-card-header>
-                <ion-card-title>Chrono Trigger</ion-card-title>
-                <ion-card-subtitle>2021 | zsnes</ion-card-subtitle>
-              </ion-card-header>
-              <ion-card-content>
-                Chrono Trigger é um jogo de RPG eletrônico desenvolvido pela Square Co. Foi lançado para o console Super Nintendo no Japão em março de 1995, e uma versão aprimorada para PlayStation foi lançada em novembro de 1999.
-              </ion-card-content>
-            </ion-card>
-          </ion-col>
+          <GameComponent
+            title="Chrono Trigger"
+            subtitle="2021 | zsnes"
+            description="Chrono Trigger é um jogo de RPG eletrônico desenvolvido pela Square Co. Foi lançado para o console Super Nintendo no Japão em março de 1995, e uma versão aprimorada para PlayStation foi lançada em novembro de 1999."
+            image="https://s2.glbimg.com/AngmlHc6lDIKw0Pqsxh0Q-ghssg=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2021/F/o/6uYQ8ASBmnIQkxYBe5JA/2016-03-16-chrono-trigge-wallpaper.jpg"
+            />
 
-          <ion-col>
-            <ion-card button="true">
-              <img alt="Hades" src="https://tm.ibxk.com.br/2021/08/09/09233636296464.jpg" />
-              <ion-card-header>
-                <ion-card-title>Hades</ion-card-title>
-                <ion-card-subtitle>2022 | Xbox One</ion-card-subtitle>
-              </ion-card-header>
-              <ion-card-content>
-                Hades é um jogo eletrônico roguelike de RPG de ação desenvolvido e publicado pela Supergiant Games. Foi lançado para Microsoft Windows, macOS e Nintendo Switch em 17 de setembro de 2020, após um lançamento de acesso antecipado em dezembro de 2018.
-              </ion-card-content>
-            </ion-card>
-          </ion-col>
+          <GameComponent
+            title="Hades"
+            subtitle="2022 | Xbox One"
+            description="Hades é um jogo eletrônico roguelike de RPG de ação desenvolvido e publicado pela Supergiant Games. Foi lançado para Microsoft Windows, macOS e Nintendo Switch em 17 de setembro de 2020, após um lançamento de acesso antecipado em dezembro de 2018."
+            image="https://tm.ibxk.com.br/2021/08/09/09233636296464.jpg"
+            />
 
-          <ion-col>
-            <ion-card button="true">
-              <img alt="Hue" src="https://img.hype.games/cdn/59a24f9a-02d6-4831-8580-d6e7192d9dd2Cover-600.jpg" />
-              <ion-card-header>
-                <ion-card-title>Hue</ion-card-title>
-                <ion-card-subtitle>2019 | Xbox One</ion-card-subtitle>
-              </ion-card-header>
-              <ion-card-content>
-                Hue é um jogo de plataforma de quebra-cabeça de 2016 projetado por Henry Hoffman e Dan Da Rocha, desenvolvido pela Fiddlesticks e publicado pela Curve Digital.
-              </ion-card-content>
-            </ion-card>
-          </ion-col>
+          <GameComponent
+            title="Hue"
+            subtitle="2019 | Xbox One"
+            description="Hue é um jogo de plataforma de quebra-cabeça de 2016 projetado por Henry Hoffman e Dan Da Rocha, desenvolvido pela Fiddlesticks e publicado pela Curve Digital."
+            image="https://img.hype.games/cdn/59a24f9a-02d6-4831-8580-d6e7192d9dd2Cover-600.jpg"
+            />
         </ion-row>
 
+
         <ion-row>
-          <ion-col>
-            <ion-card button="true">
-              <img alt="The Legend of Zelda: Twilight Princess" src="https://i0.wp.com/mynintendonews.com/wp-content/uploads/2015/04/zelda_twilight_princess.jpg?fit=1280%2C1024&ssl=1" />
-              <ion-card-header>
-                <ion-card-title>The Legend of Zelda: Twilight Princess</ion-card-title>
-                <ion-card-subtitle>2018 | Nintendo Wii</ion-card-subtitle>
-              </ion-card-header>
-              <ion-card-content>
-                The Legend of Zelda: Twilight Princess é um jogo eletrônico de ação-aventura desenvolvido pela Nintendo EAD, e publicado pela Nintendo para o GameCube e Wii.
-              </ion-card-content>
-            </ion-card>
-          </ion-col>
+          <GameComponent
+            title="The Legend of Zelda: Twilight Princess"
+            subtitle="2018 | Nintendo Wii"
+            description="The Legend of Zelda: Twilight Princess é um jogo eletrônico de ação-aventura desenvolvido pela Nintendo EAD, e publicado pela Nintendo para o GameCube e Wii."
+            image="https://i0.wp.com/mynintendonews.com/wp-content/uploads/2015/04/zelda_twilight_princess.jpg?fit=1280%2C1024&ssl=1"
+            />
 
-          <ion-col>
-            <ion-card button="true">
-              <img alt="Super Paper Mario RPG: Legend of the Seven Stars" src="https://i0.wp.com/www.the-pixels.com/wp-content/uploads/2017/02/smrpglotsssm.jpg?fit=1203%2C915&ssl=1" />
-              <ion-card-header>
-                <ion-card-title>Super Paper Mario RPG: Legend of the Seven Stars</ion-card-title>
-                <ion-card-subtitle>2023 | zsnes</ion-card-subtitle>
-              </ion-card-header>
-              <ion-card-content>
-                Super Mario RPG é um jogo de RPG, desenvolvido pela Square, juntamente com a Nintendo e lançado em 1996 no Japão e nos Estados Unidos para o Super NES. O jogo é o primeiro RPG a estrelar o mascote da Nintendo, Mario, e por 7 anos, o último jogo da Square em um console da Nintendo.
-              </ion-card-content>
-            </ion-card>
-          </ion-col>
+          <GameComponent
+            title="Super Paper Mario RPG: Legend of the Seven Stars"
+            subtitle="2023 | zsnes"
+            description="Super Mario RPG é um jogo de RPG, desenvolvido pela Square, juntamente com a Nintendo e lançado em 1996 no Japão e nos Estados Unidos para o Super NES. O jogo é o primeiro RPG a estrelar o mascote da Nintendo, Mario, e por 7 anos, o último jogo da Square em um console da Nintendo."
+            image="https://i0.wp.com/www.the-pixels.com/wp-content/uploads/2017/02/smrpglotsssm.jpg?fit=1203%2C915&ssl=1"
+            />
 
-          <ion-col>
-            <ion-card button="true">
-              <img alt="Super Paper Mario" src="https://i.pinimg.com/originals/b6/b7/f5/b6b7f5fcf7da9721deb95ba0717418a7.jpg" />
-              <ion-card-header>
-                <ion-card-title>Super Paper Mario</ion-card-title>
-                <ion-card-subtitle>2016 | Nintendo Wii</ion-card-subtitle>
-              </ion-card-header>
-              <ion-card-content>
-                Super Paper Mario é um jogo eletrônico misto de plataforma e RPG produzido pela Intelligent Systems. Foi planejado para o GameCube, mas com a chegada do Wii, a Nintendo lançou-o no novo console. Traz personagens do Reino dos Cogumelos em uma aventura com toques de RPG e plataforma.
-              </ion-card-content>
-            </ion-card>
-          </ion-col>
+          <GameComponent
+            title="Super Paper Mario"
+            subtitle="2016 | Nintendo Wii"
+            description="Super Paper Mario é um jogo eletrônico misto de plataforma e RPG produzido pela Intelligent Systems. Foi planejado para o GameCube, mas com a chegada do Wii, a Nintendo lançou-o no novo console. Traz personagens do Reino dos Cogumelos em uma aventura com toques de RPG e plataforma."
+            image="https://i.pinimg.com/originals/b6/b7/f5/b6b7f5fcf7da9721deb95ba0717418a7.jpg"
+            />
         </ion-row>
 
+
         <ion-row>
-          <ion-col>
-            <ion-card button="true">
-              <img alt="Star Fox" src="https://s2.glbimg.com/d1EpVG5NaF7C2auIeZP7Lk69ckc=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2021/0/2/wRrBKfSnWuzpBb4oAhGQ/2016-03-22-super-nes-s-25th-anniversary-have-you-played-any-of-these-15-essential-games-721102.jpg" />
-              <ion-card-header>
-                <ion-card-title>Star Fox</ion-card-title>
-                <ion-card-subtitle>2022 | zsnes</ion-card-subtitle>
-              </ion-card-header>
-              <ion-card-content>
-                Star Fox, conhecido como Starwing nas regiões PAL, é um videogame rail shooter desenvolvido pela Nintendo e Argonaut Software e publicado pela Nintendo para o Super Nintendo Entertainment System.
-              </ion-card-content>
-            </ion-card>
-          </ion-col>
+          <GameComponent
+            title="Star Fox"
+            subtitle="2022 | zsnes"
+            description="Star Fox, conhecido como Starwing nas regiões PAL, é um videogame rail shooter desenvolvido pela Nintendo e Argonaut Software e publicado pela Nintendo para o Super Nintendo Entertainment System."
+            image="https://s2.glbimg.com/d1EpVG5NaF7C2auIeZP7Lk69ckc=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2021/0/2/wRrBKfSnWuzpBb4oAhGQ/2016-03-22-super-nes-s-25th-anniversary-have-you-played-any-of-these-15-essential-games-721102.jpg"
+            />
 
-          <ion-col>
-            <ion-card button="true">
-              <img alt="Deltarune" src="https://files.tecnoblog.net/wp-content/uploads/2021/09/deltarune.jpg" />
-              <ion-card-header>
-                <ion-card-title>Deltarune</ion-card-title>
-                <ion-card-subtitle>2019 | PC</ion-card-subtitle>
-              </ion-card-header>
-              <ion-card-content>
-                Deltarune é um jogo de RPG criado pelo desenvolvedor indie norte-americano Toby Fox. O jogador controla um humano, Kris, em um mundo onde os monstros vivem na superfície da Terra.              </ion-card-content>
-            </ion-card>
-          </ion-col>
+          <GameComponent
+            title="Deltarune"
+            subtitle="2019 | PC"
+            description="Deltarune é um jogo de RPG criado pelo desenvolvedor indie norte-americano Toby Fox. O jogador controla um humano, Kris, em um mundo onde os monstros vivem na superfície da Terra."
+            image="https://files.tecnoblog.net/wp-content/uploads/2021/09/deltarune.jpg"
+            />
 
-          <ion-col>
-            <ion-card button="true">
-              <img alt="Bug Fables: The Everlasting Sapling" src="https://i.ytimg.com/vi/jag9W4X6yTM/maxresdefault.jpg" />
-              <ion-card-header>
-                <ion-card-title>Bug Fables: The Everlasting Sapling</ion-card-title>
-                <ion-card-subtitle>2022 | Xbox One</ion-card-subtitle>
-              </ion-card-header>
-              <ion-card-content>
-                Bug Fables: The Everlasting Sapling é um videogame de RPG desenvolvido pelo estúdio independente panamenho Moonsprout Games e publicado pela Dangen Entertainment.
-              </ion-card-content>
-            </ion-card>
-          </ion-col>
-
-          <!-- <ion-col>
-            <ion-card button="true">
-              <img alt="The Prison Boys" src="../assets/mqdefault.jpg" />
-              <ion-card-header>
-                <ion-card-title>The Prison Boys</ion-card-title>
-                <ion-card-subtitle>2022 | Mobile</ion-card-subtitle>
-              </ion-card-header>
-              <ion-card-content>
-                Here's a small text description for the card content. Nothing more, nothing less.
-              </ion-card-content>
-            </ion-card>
-          </ion-col>
-
-          <ion-col>
-            <ion-card button="true">
-              <img alt="OneShot" src="https://upload.wikimedia.org/wikipedia/en/8/81/OneShot_cover_art.png" />
-              <ion-card-header>
-                <ion-card-title>OneShot</ion-card-title>
-                <ion-card-subtitle>2017 | PC</ion-card-subtitle>
-              </ion-card-header>
-              <ion-card-content>
-                OneShot é um jogo de aventura desenvolvido pelo estúdio independente Future Cat e publicado pela Degica. Baseado em uma versão gratuita de 2014, foi lançado para Steam em 8 de dezembro de 2016 e no itch.io em 12 de março de 2020.
-              </ion-card-content>
-            </ion-card>
-          </ion-col> -->
+          <GameComponent
+            title="Bug Fables: The Everlasting Sapling"
+            subtitle="2022 | Xbox One"
+            description="Bug Fables: The Everlasting Sapling é um videogame de RPG desenvolvido pelo estúdio independente panamenho Moonsprout Games e publicado pela Dangen Entertainment."
+            image="https://i.ytimg.com/vi/jag9W4X6yTM/maxresdefault.jpg"
+            id="bug-fable"
+            video="https://youtu.be/x3ahTPimui8"
+            />
         </ion-row>
       </ion-grid>
     </ion-content>
@@ -204,6 +129,8 @@ import {
   warningOutline,
   warningSharp,
 } from 'ionicons/icons';
+import { Component } from 'ionicons/dist/types/stencil-public-runtime';
+import GameComponent from './views/GameComponent.vue';
 </script>
 
 <style scoped>
