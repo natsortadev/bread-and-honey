@@ -1,118 +1,137 @@
 <template>
   <ion-app>
-    <ion-header>
-      <ion-toolbar>
+
+
+    <Menu></Menu>
+
+
+    <ion-page id="main-content">
+      <ion-header>
+        <ion-toolbar>
+          <ion-grid>
+            <ion-row>
+              <ion-buttons>
+                <ion-menu-button></ion-menu-button>
+              </ion-buttons>
+              <ion-icon :icon="leaf" size="large" style="color: var(--ion-color-primary); margin-top: 5px; margin-left: 20px;"></ion-icon>
+              <ion-title>Geno's Forest Grove</ion-title>
+            </ion-row>
+          </ion-grid>
+        </ion-toolbar>
+      </ion-header>
+
+
+      <ion-content>
+        <img src="../assets/pexels-mikechie-esparagoza-16017742.jpg" alt="">
         <ion-grid>
-          <ion-title>Geno's Forest Grove</ion-title>
+          <ion-row>
+            <ion-icon :icon="star" size="large" style="color: var(--ion-color-primary); margin-top: 18px; margin-left: 20px;"></ion-icon>
+            <ion-title><h1>Top 9 da Nat</h1></ion-title>
+          </ion-row>
+
+          <hr style="background-color:var(--ion-color-primary); margin: 10px;">
+
+          <ion-row>
+            <GameComponent
+              title="Chrono Trigger"
+              subtitle="2021 | zsnes"
+              description="Chrono Trigger é um jogo de RPG eletrônico desenvolvido pela Square Co. Foi lançado para o console Super Nintendo no Japão em março de 1995, e uma versão aprimorada para PlayStation foi lançada em novembro de 1999."
+              image="https://s2.glbimg.com/AngmlHc6lDIKw0Pqsxh0Q-ghssg=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2021/F/o/6uYQ8ASBmnIQkxYBe5JA/2016-03-16-chrono-trigge-wallpaper.jpg"
+              id="chrono-trigger"
+              video="../../assets/videos/CHRONO TRIGGER – Launch Trailer.mp4"/>
+
+            <GameComponent
+              title="Hades"
+              subtitle="2022 | Xbox One"
+              description="Hades é um jogo eletrônico roguelike de RPG de ação desenvolvido e publicado pela Supergiant Games. Foi lançado para Microsoft Windows, macOS e Nintendo Switch em 17 de setembro de 2020, após um lançamento de acesso antecipado em dezembro de 2018."
+              image="https://tm.ibxk.com.br/2021/08/09/09233636296464.jpg"
+              id="hades"
+              video="../../assets/videos/Hades - Official Animated Trailer.mp4"/>
+
+            <GameComponent
+              title="Hue"
+              subtitle="2019 | Xbox One"
+              description="Hue é um jogo de plataforma de quebra-cabeça de 2016 projetado por Henry Hoffman e Dan Da Rocha, desenvolvido pela Fiddlesticks e publicado pela Curve Digital."
+              image="https://img.hype.games/cdn/59a24f9a-02d6-4831-8580-d6e7192d9dd2Cover-600.jpg"
+              id="hue"
+              video="../../assets/videos/Hue - Coming Soon Trailer PS4 PS Vita Xbox One .mp4"/>
+          </ion-row>
+
+
+          <ion-row>
+            <GameComponent
+              title="The Legend of Zelda: Twilight Princess"
+              subtitle="2018 | Nintendo Wii"
+              description="The Legend of Zelda: Twilight Princess é um jogo eletrônico de ação-aventura desenvolvido pela Nintendo EAD, e publicado pela Nintendo para o GameCube e Wii."
+              image="https://i0.wp.com/mynintendonews.com/wp-content/uploads/2015/04/zelda_twilight_princess.jpg?fit=1280%2C1024&ssl=1"
+              id="zelda-twilight"
+              video="../../assets/videos/The Legend of Zelda - Twilight Princess HD Official Story Trailer(1).mp4"/>
+
+            <GameComponent
+              title="Super Paper Mario RPG: Legend of the Seven Stars"
+              subtitle="2023 | zsnes"
+              description="Super Mario RPG é um jogo de RPG, desenvolvido pela Square, juntamente com a Nintendo e lançado em 1996 no Japão e nos Estados Unidos para o Super NES. O jogo é o primeiro RPG a estrelar o mascote da Nintendo, Mario, e por 7 anos, o último jogo da Square em um console da Nintendo."
+              image="https://i0.wp.com/www.the-pixels.com/wp-content/uploads/2017/02/smrpglotsssm.jpg?fit=1203%2C915&ssl=1"
+              id="mario-rpg"
+              video="../../assets/videos/Super Mario RPG Trailer.mp4"/>
+
+            <GameComponent
+              title="Super Paper Mario"
+              subtitle="2016 | Nintendo Wii"
+              description="Super Paper Mario é um jogo eletrônico misto de plataforma e RPG produzido pela Intelligent Systems. Foi planejado para o GameCube, mas com a chegada do Wii, a Nintendo lançou-o no novo console. Traz personagens do Reino dos Cogumelos em uma aventura com toques de RPG e plataforma."
+              image="https://i.pinimg.com/originals/b6/b7/f5/b6b7f5fcf7da9721deb95ba0717418a7.jpg"
+              id="super-paper-mario"
+              video="../../assets/videos/Super Paper Mario Nintendo Wii Trailer - From 2D to 3D.mp4"/>
+          </ion-row>
+
+
+          <ion-row>
+            <GameComponent
+              title="Star Fox"
+              subtitle="2022 | zsnes"
+              description="Star Fox, conhecido como Starwing nas regiões PAL, é um videogame rail shooter desenvolvido pela Nintendo e Argonaut Software e publicado pela Nintendo para o Super Nintendo Entertainment System."
+              image="https://s2.glbimg.com/d1EpVG5NaF7C2auIeZP7Lk69ckc=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2021/0/2/wRrBKfSnWuzpBb4oAhGQ/2016-03-22-super-nes-s-25th-anniversary-have-you-played-any-of-these-15-essential-games-721102.jpg"
+              id="starfox"
+              video="../../assets/videos/Star Fox SNES Commercial - Retro Game Trailers.mp4"/>
+
+            <GameComponent
+              title="Deltarune"
+              subtitle="2019 | PC"
+              description="Deltarune é um jogo de RPG criado pelo desenvolvedor indie norte-americano Toby Fox. O jogador controla um humano, Kris, em um mundo onde os monstros vivem na superfície da Terra."
+              image="https://files.tecnoblog.net/wp-content/uploads/2021/09/deltarune.jpg"
+              id="deltarune"
+              video="../../assets/videos/Deltarune Chapter 2 Trailer!.mp4"/>
+
+            <GameComponent
+              title="Bug Fables: The Everlasting Sapling"
+              subtitle="2022 | Xbox One"
+              description="Bug Fables: The Everlasting Sapling é um videogame de RPG desenvolvido pelo estúdio independente panamenho Moonsprout Games e publicado pela Dangen Entertainment."
+              image="https://i.ytimg.com/vi/jag9W4X6yTM/maxresdefault.jpg"
+              id="bug-fable"
+              video="../../assets/videos/Bug Fables - The Everlasting Sapling - PC Release Trailer.mp4"/>
+          </ion-row>
         </ion-grid>
-      </ion-toolbar>
-    </ion-header>
-
-
-    <ion-content>
-      <img src="../assets/pexels-mikechie-esparagoza-16017742.jpg" alt="">
-      <ion-grid>
-        <ion-row>
-          <ion-icon :icon="star" size="large" style="color: var(--ion-color-primary); margin-top: 18px; margin-left: 20px;"></ion-icon>
-          <ion-title><h1>Top 9 da Nat</h1></ion-title>
-        </ion-row>
-
-        <hr style="background-color:var(--ion-color-primary); margin: 10px;">
-
-        <ion-row>
-          <GameComponent
-            title="Chrono Trigger"
-            subtitle="2021 | zsnes"
-            description="Chrono Trigger é um jogo de RPG eletrônico desenvolvido pela Square Co. Foi lançado para o console Super Nintendo no Japão em março de 1995, e uma versão aprimorada para PlayStation foi lançada em novembro de 1999."
-            image="https://s2.glbimg.com/AngmlHc6lDIKw0Pqsxh0Q-ghssg=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2021/F/o/6uYQ8ASBmnIQkxYBe5JA/2016-03-16-chrono-trigge-wallpaper.jpg"
-            />
-
-          <GameComponent
-            title="Hades"
-            subtitle="2022 | Xbox One"
-            description="Hades é um jogo eletrônico roguelike de RPG de ação desenvolvido e publicado pela Supergiant Games. Foi lançado para Microsoft Windows, macOS e Nintendo Switch em 17 de setembro de 2020, após um lançamento de acesso antecipado em dezembro de 2018."
-            image="https://tm.ibxk.com.br/2021/08/09/09233636296464.jpg"
-            />
-
-          <GameComponent
-            title="Hue"
-            subtitle="2019 | Xbox One"
-            description="Hue é um jogo de plataforma de quebra-cabeça de 2016 projetado por Henry Hoffman e Dan Da Rocha, desenvolvido pela Fiddlesticks e publicado pela Curve Digital."
-            image="https://img.hype.games/cdn/59a24f9a-02d6-4831-8580-d6e7192d9dd2Cover-600.jpg"
-            />
-        </ion-row>
-
-
-        <ion-row>
-          <GameComponent
-            title="The Legend of Zelda: Twilight Princess"
-            subtitle="2018 | Nintendo Wii"
-            description="The Legend of Zelda: Twilight Princess é um jogo eletrônico de ação-aventura desenvolvido pela Nintendo EAD, e publicado pela Nintendo para o GameCube e Wii."
-            image="https://i0.wp.com/mynintendonews.com/wp-content/uploads/2015/04/zelda_twilight_princess.jpg?fit=1280%2C1024&ssl=1"
-            />
-
-          <GameComponent
-            title="Super Paper Mario RPG: Legend of the Seven Stars"
-            subtitle="2023 | zsnes"
-            description="Super Mario RPG é um jogo de RPG, desenvolvido pela Square, juntamente com a Nintendo e lançado em 1996 no Japão e nos Estados Unidos para o Super NES. O jogo é o primeiro RPG a estrelar o mascote da Nintendo, Mario, e por 7 anos, o último jogo da Square em um console da Nintendo."
-            image="https://i0.wp.com/www.the-pixels.com/wp-content/uploads/2017/02/smrpglotsssm.jpg?fit=1203%2C915&ssl=1"
-            />
-
-          <GameComponent
-            title="Super Paper Mario"
-            subtitle="2016 | Nintendo Wii"
-            description="Super Paper Mario é um jogo eletrônico misto de plataforma e RPG produzido pela Intelligent Systems. Foi planejado para o GameCube, mas com a chegada do Wii, a Nintendo lançou-o no novo console. Traz personagens do Reino dos Cogumelos em uma aventura com toques de RPG e plataforma."
-            image="https://i.pinimg.com/originals/b6/b7/f5/b6b7f5fcf7da9721deb95ba0717418a7.jpg"
-            />
-        </ion-row>
-
-
-        <ion-row>
-          <GameComponent
-            title="Star Fox"
-            subtitle="2022 | zsnes"
-            description="Star Fox, conhecido como Starwing nas regiões PAL, é um videogame rail shooter desenvolvido pela Nintendo e Argonaut Software e publicado pela Nintendo para o Super Nintendo Entertainment System."
-            image="https://s2.glbimg.com/d1EpVG5NaF7C2auIeZP7Lk69ckc=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2021/0/2/wRrBKfSnWuzpBb4oAhGQ/2016-03-22-super-nes-s-25th-anniversary-have-you-played-any-of-these-15-essential-games-721102.jpg"
-            />
-
-          <GameComponent
-            title="Deltarune"
-            subtitle="2019 | PC"
-            description="Deltarune é um jogo de RPG criado pelo desenvolvedor indie norte-americano Toby Fox. O jogador controla um humano, Kris, em um mundo onde os monstros vivem na superfície da Terra."
-            image="https://files.tecnoblog.net/wp-content/uploads/2021/09/deltarune.jpg"
-            />
-
-          <GameComponent
-            title="Bug Fables: The Everlasting Sapling"
-            subtitle="2022 | Xbox One"
-            description="Bug Fables: The Everlasting Sapling é um videogame de RPG desenvolvido pelo estúdio independente panamenho Moonsprout Games e publicado pela Dangen Entertainment."
-            image="https://i.ytimg.com/vi/jag9W4X6yTM/maxresdefault.jpg"
-            id="bug-fable"
-            video="https://youtu.be/x3ahTPimui8"
-            />
-        </ion-row>
-      </ion-grid>
-    </ion-content>
+      </ion-content>
+    </ion-page>
+    <ion-router-outlet id="content"></ion-router-outlet>
   </ion-app>
 </template>
 
 <script setup lang="ts">
-import { heart, logoIonic, star } from 'ionicons/icons';
+import { heart, leaf, logoIonic, star } from 'ionicons/icons';
 import {
   IonApp,
   IonContent,
   IonIcon,
-  IonItem,
-  IonLabel,
-  IonList,
-  IonListHeader,
   IonMenu,
-  IonMenuToggle,
-  IonNote,
-  IonRouterOutlet,
-  IonSplitPane,
+  IonHeader,
+  IonTitle,
+  IonToolbar,
+  IonButtons,
+  IonMenuButton,
+  IonPage
 } from '@ionic/vue';
-import { ref } from 'vue';
+import { defineComponent, ref } from 'vue';
 import {
   archiveOutline,
   archiveSharp,
@@ -129,8 +148,8 @@ import {
   warningOutline,
   warningSharp,
 } from 'ionicons/icons';
-import { Component } from 'ionicons/dist/types/stencil-public-runtime';
 import GameComponent from './views/GameComponent.vue';
+import Menu from './views/Menu.vue';
 </script>
 
 <style scoped>

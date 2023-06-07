@@ -11,25 +11,16 @@
             </ion-card-content>
         </ion-card>
     </ion-col>
-    <ion-alert 
-        v-bind:trigger="id" 
-        class="custom-alert" 
-        v-bind:header=title
-        subHeader="Trailer">
-        <iframe 
-            height="720px"
-            width="1280px"
-            controls
-            v-bind:src="video">
-        </iframe>
-    </ion-alert>
+    <ion-modal v-bind:trigger="id">
+        <video controls v-bind:src="video"></video>
+    </ion-modal>
 </template>
 
 <script lang="ts">
-import { IonAlert, IonButton } from '@ionic/vue';
+import { IonAlert, IonButton, IonModal } from '@ionic/vue';
 
 export default {
-    components: { IonAlert, IonButton },
+    components: { IonAlert, IonButton, IonModal },
     props: ['title', 'subtitle', 'description', 'image', 'id', 'video'],
     setup(props) {
 
@@ -38,7 +29,9 @@ export default {
 </script>
 
 <style>
-ion-alert {
+ion-modal {
     color: var(--ion-color-primary);
+    --height: 80%;
+    --width: 66.7%;
 }
 </style>
