@@ -26,7 +26,7 @@
         <ion-grid>
           <ion-row>
             <ion-icon :icon="star" size="large" style="color: var(--ion-color-primary); margin-top: 18px; margin-left: 20px;"></ion-icon>
-            <ion-title><h1>Top 9 da Nat</h1></ion-title>
+            <ion-title><h1>Jogos maneiros</h1></ion-title>
           </ion-row>
 
           <hr style="background-color:var(--ion-color-primary); margin: 10px;">
@@ -34,7 +34,7 @@
           <ion-row>
             <GameComponent
               title="Chrono Trigger"
-              subtitle="2021 | zsnes"
+              subtitle="1995 | Super Nintendo"
               description="Chrono Trigger é um jogo de RPG eletrônico desenvolvido pela Square Co. Foi lançado para o console Super Nintendo no Japão em março de 1995, e uma versão aprimorada para PlayStation foi lançada em novembro de 1999."
               image="https://s2.glbimg.com/AngmlHc6lDIKw0Pqsxh0Q-ghssg=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2021/F/o/6uYQ8ASBmnIQkxYBe5JA/2016-03-16-chrono-trigge-wallpaper.jpg"
               id="chrono-trigger"
@@ -42,7 +42,7 @@
 
             <GameComponent
               title="Hades"
-              subtitle="2022 | Xbox One"
+              subtitle="2016 | Xbox One"
               description="Hades é um jogo eletrônico roguelike de RPG de ação desenvolvido e publicado pela Supergiant Games. Foi lançado para Microsoft Windows, macOS e Nintendo Switch em 17 de setembro de 2020, após um lançamento de acesso antecipado em dezembro de 2018."
               image="https://tm.ibxk.com.br/2021/08/09/09233636296464.jpg"
               id="hades"
@@ -61,7 +61,7 @@
           <ion-row>
             <GameComponent
               title="The Legend of Zelda: Twilight Princess"
-              subtitle="2018 | Nintendo Wii"
+              subtitle="2006 | Nintendo GameCube"
               description="The Legend of Zelda: Twilight Princess é um jogo eletrônico de ação-aventura desenvolvido pela Nintendo EAD, e publicado pela Nintendo para o GameCube e Wii."
               image="https://i0.wp.com/mynintendonews.com/wp-content/uploads/2015/04/zelda_twilight_princess.jpg?fit=1280%2C1024&ssl=1"
               id="zelda-twilight"
@@ -69,7 +69,7 @@
 
             <GameComponent
               title="Super Paper Mario RPG: Legend of the Seven Stars"
-              subtitle="2023 | zsnes"
+              subtitle="1996 | Super Nintendo"
               description="Super Mario RPG é um jogo de RPG, desenvolvido pela Square, juntamente com a Nintendo e lançado em 1996 no Japão e nos Estados Unidos para o Super NES. O jogo é o primeiro RPG a estrelar o mascote da Nintendo, Mario, e por 7 anos, o último jogo da Square em um console da Nintendo."
               image="https://i0.wp.com/www.the-pixels.com/wp-content/uploads/2017/02/smrpglotsssm.jpg?fit=1203%2C915&ssl=1"
               id="mario-rpg"
@@ -77,7 +77,7 @@
 
             <GameComponent
               title="Super Paper Mario"
-              subtitle="2016 | Nintendo Wii"
+              subtitle="2007 | Nintendo Wii"
               description="Super Paper Mario é um jogo eletrônico misto de plataforma e RPG produzido pela Intelligent Systems. Foi planejado para o GameCube, mas com a chegada do Wii, a Nintendo lançou-o no novo console. Traz personagens do Reino dos Cogumelos em uma aventura com toques de RPG e plataforma."
               image="https://i.pinimg.com/originals/b6/b7/f5/b6b7f5fcf7da9721deb95ba0717418a7.jpg"
               id="super-paper-mario"
@@ -88,28 +88,78 @@
           <ion-row>
             <GameComponent
               title="Star Fox"
-              subtitle="2022 | zsnes"
+              subtitle="1993 | Super Nintendo"
               description="Star Fox, conhecido como Starwing nas regiões PAL, é um videogame rail shooter desenvolvido pela Nintendo e Argonaut Software e publicado pela Nintendo para o Super Nintendo Entertainment System."
               image="https://s2.glbimg.com/d1EpVG5NaF7C2auIeZP7Lk69ckc=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2021/0/2/wRrBKfSnWuzpBb4oAhGQ/2016-03-22-super-nes-s-25th-anniversary-have-you-played-any-of-these-15-essential-games-721102.jpg"
               id="starfox"
               video="../../assets/videos/Star Fox SNES Commercial - Retro Game Trailers.mp4"/>
 
             <GameComponent
+              title="OneShot"
+              subtitle="2016 | PC"
+              description="OneShot é um jogo de aventura desenvolvido pelo estúdio independente Future Cat e publicado pela Degica. Baseado em uma versão gratuita de 2014, foi lançado para Steam em 8 de dezembro de 2016 e no itch.io em 12 de março de 2020."
+              image="https://cdn.akamai.steamstatic.com/steam/apps/420530/capsule_616x353.jpg?t=1681246342"
+              id="one-shot"
+              video="../../assets/videos/OneShot Trailer.mp4"/>
+
+            <!-- <GameComponent
+              title="The Prison Boys"
+              subtitle="2017 | Mobile"
+              description="É o final da era Taisho. O personagem principal, Tetsu Akatsuki, testemunha um incidente na prisão de 12 andares, que é um dos centros da Polícia Secreta... Quanto mais perto ele chega da verdade, mais ele descobre que a escuridão da prisão de 12 andares é profunda. Mantendo seu próprio senso de justiça em mente, resolva os mistérios junto com seu parceiro! O jogo de aventura e mistério sobre a justiça e a amizade entre Tetsu e Nagi, que colocam suas vidas em risco."
+              image="https://modyolo.com/wp-content/uploads/2022/09/the-prison-boys-1.jpg"
+              id="prison-boys"
+              video="../../assets/videos/Mystery novel and Escape Game [The Prison Boys].mp4"/> -->
+
+            <GameComponent
+              title="Bug Fables: The Everlasting Sapling"
+              subtitle="2019 | Xbox One"
+              description="Bug Fables: The Everlasting Sapling é um videogame de RPG desenvolvido pelo estúdio independente panamenho Moonsprout Games e publicado pela Dangen Entertainment."
+              image="https://i.ytimg.com/vi/jag9W4X6yTM/maxresdefault.jpg"
+              id="bug-fable"
+              video="../../assets/videos/Bug Fables - The Everlasting Sapling - PC Release Trailer.mp4"/>
+
+            <!-- <GameComponent
               title="Deltarune"
               subtitle="2019 | PC"
               description="Deltarune é um jogo de RPG criado pelo desenvolvedor indie norte-americano Toby Fox. O jogador controla um humano, Kris, em um mundo onde os monstros vivem na superfície da Terra."
               image="https://files.tecnoblog.net/wp-content/uploads/2021/09/deltarune.jpg"
               id="deltarune"
-              video="../../assets/videos/Deltarune Chapter 2 Trailer!.mp4"/>
+              video="../../assets/videos/Deltarune Chapter 2 Trailer!.mp4"/> -->
 
-            <GameComponent
+            <!-- <GameComponent
               title="Bug Fables: The Everlasting Sapling"
               subtitle="2022 | Xbox One"
               description="Bug Fables: The Everlasting Sapling é um videogame de RPG desenvolvido pelo estúdio independente panamenho Moonsprout Games e publicado pela Dangen Entertainment."
               image="https://i.ytimg.com/vi/jag9W4X6yTM/maxresdefault.jpg"
               id="bug-fable"
-              video="../../assets/videos/Bug Fables - The Everlasting Sapling - PC Release Trailer.mp4"/>
+              video="../../assets/videos/Bug Fables - The Everlasting Sapling - PC Release Trailer.mp4"/> -->
           </ion-row>
+
+          <!-- <ion-row>
+            <GameComponent
+              title="OneShot"
+              subtitle="2017 | PC"
+              description="OneShot é um jogo de aventura desenvolvido pelo estúdio independente Future Cat e publicado pela Degica. Baseado em uma versão gratuita de 2014, foi lançado para Steam em 8 de dezembro de 2016 e no itch.io em 12 de março de 2020."
+              image="https://cdn.akamai.steamstatic.com/steam/apps/420530/capsule_616x353.jpg?t=1681246342"
+              id="one-shot"
+              video="../../assets/videos/OneShot Trailer.mp4"/>
+
+            <GameComponent
+              title="The Prison Boys"
+              subtitle="2022 | Mobile"
+              description="É o final da era Taisho. O personagem principal, Tetsu Akatsuki, testemunha um incidente na prisão de 12 andares, que é um dos centros da Polícia Secreta... Quanto mais perto ele chega da verdade, mais ele descobre que a escuridão da prisão de 12 andares é profunda. Mantendo seu próprio senso de justiça em mente, resolva os mistérios junto com seu parceiro! O jogo de aventura e mistério sobre a justiça e a amizade entre Tetsu e Nagi, que colocam suas vidas em risco."
+              image="https://modyolo.com/wp-content/uploads/2022/09/the-prison-boys-1.jpg"
+              id="prison-boys"
+              video="../../assets/videos/Mystery novel and Escape Game [The Prison Boys].mp4"/>
+
+            <GameComponent
+              title="Mass Effect"
+              subtitle="2007 | PC"
+              description="Mass Effect se passa no ano de 2183. O jogador assume o controle de um soldado de elite chamado Shepard, que é mandado em missões de exploração pela galáxia em uma nave espacial, chamada Normandy. O título Mass Effect faz referência a uma tecnologia presente no jogo, que permite a viagem em uma velocidade mais rápida que a luz."
+              image="https://cdn.akamai.steamstatic.com/steam/apps/17460/capsule_616x353.jpg?t=1684225163"
+              id="mass-effect"
+              video="../../assets/videos/Mass Effect 1 Trailer.mp4"/>
+          </ion-row> -->
         </ion-grid>
       </ion-content>
     </ion-page>
